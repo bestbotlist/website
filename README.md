@@ -1,2 +1,2 @@
-# website
-The official bot list
+# Discord Bot List
+Not yet started.
