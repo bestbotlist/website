@@ -3,6 +3,24 @@ body {
 }
 
 
-.blurple {
+.card {
+    background: #25282b;
+}
+
+
+.bg-blurple {
     background-color: #7289DA;
+}
+
+.bg-blurple:hover {
+    background-color: #586cb8;
+}
+
+
+.card-button {
+    background-color: #393b3f;
+}
+
+.card-button:hover {
+    background-color: #515255;
 }
