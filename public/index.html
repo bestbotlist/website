@@ -4,9 +4,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
     <title></title>
 </head>
 <body>
-
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="static/images/icon.png" class="rounded-full h-10 w-10">
+                <span class="ml-3 text-xl font-semibold text-white">BBT</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 text-white hover:text-gray-300 font-semibold" href="">Home</a>
+                <a class="mr-5 text-white hover:text-gray-300 font-semibold" href="discord.gg/dpy">Join Discord</a>
+                <a class="mr-5 text-white hover:text-gray-300 font-semibold" href="">Add Bot</a>
+            </nav>
+            <button
+                class="inline-flex items-center bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-white hover:text-red-500 text-white font-semibold mt-4 md:mt-0" style="border-radius: 50px;">Login
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 text-white font-bold">Best Bot List
+                </h1>
+                <p class="mb-3 leading-relaxed text-gray-400">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789-=#@'/+</p>
+                <div class="flex w-full md:justify-start justify-center items-end">
+                    <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+                      <label for="hero-field" class="leading-7 text-sm text-white"></label>
+                      <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-400 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-500 rounded text-lg blurple font-semibold hover:shadow-lg" style="border-radius: 30px;">Search 
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-1 0 136 136.21852" class="my-1 mx-2 w-5 h-5">
+                            <g id="surface1">
+                            <path d="M 93.148438 80.832031 C 109.5 57.742188 104.03125 25.769531 80.941406 9.421875 C 57.851562 -6.925781 25.878906 -1.460938 9.53125 21.632812 C -6.816406 44.722656 -1.351562 76.691406 21.742188 93.039062 C 38.222656 104.707031 60.011719 105.605469 77.394531 95.339844 L 115.164062 132.882812 C 119.242188 137.175781 126.027344 137.347656 130.320312 133.269531 C 134.613281 129.195312 134.785156 122.410156 130.710938 118.117188 C 130.582031 117.980469 130.457031 117.855469 130.320312 117.726562 Z M 51.308594 84.332031 C 33.0625 84.335938 18.269531 69.554688 18.257812 51.308594 C 18.253906 33.0625 33.035156 18.269531 51.285156 18.261719 C 69.507812 18.253906 84.292969 33.011719 84.328125 51.234375 C 84.359375 69.484375 69.585938 84.300781 51.332031 84.332031 C 51.324219 84.332031 51.320312 84.332031 51.308594 84.332031 Z M 51.308594 84.332031 " style=" stroke:none;fill-rule:nonzero;fill:rgb(255, 255, 255);fill-opacity:1;" />
+                            </g>
+                        </svg>
+                    </button>
+                  </div>
+                <!--<div class="flex justify-center my-5">
+                    <button
+                        class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg" style="border-radius: 50px;">Explore</button>
+                    <button
+                        class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg" style="border-radius: 50px;">Support</button>
+                </div>-->
+            </div>
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded-lg" alt="hero" src="https://images6.alphacoders.com/112/1126823.jpg">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
